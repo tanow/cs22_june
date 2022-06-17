@@ -1,0 +1,6 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p04_z15\bin\Debug\p04_z15.exe.config
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p04_z15\bin\Debug\p04_z15.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p04_z15\bin\Debug\p04_z15.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p04_z15\obj\Debug\p04_z15.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p04_z15\obj\Debug\p04_z15.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p04_z15\obj\Debug\p04_z15.pdb

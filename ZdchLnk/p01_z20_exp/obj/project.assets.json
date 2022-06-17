@@ -9,19 +9,19 @@
     ".NETFramework,Version=v5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pro-14\\.nuget\\packages\\": {}
+    "C:\\Users\\pro-10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pro-14\\Desktop\\cs22_june_vetrova_as\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj",
+      "projectUniqueName": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj",
       "projectName": "p01_z20_exp",
-      "projectPath": "C:\\Users\\pro-14\\Desktop\\cs22_june_vetrova_as\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj",
-      "packagesPath": "C:\\Users\\pro-14\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pro-14\\Desktop\\cs22_june_vetrova_as\\ZdchLnk\\p01_z20_exp\\obj\\",
+      "projectPath": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj",
+      "packagesPath": "C:\\Users\\pro-10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z20_exp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pro-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pro-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -44,7 +44,7 @@
     },
     "frameworks": {
       "net50": {
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

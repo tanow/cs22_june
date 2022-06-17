@@ -1,0 +1,6 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\ConsoleApp1\obj\Debug\p03_z12.csprojAssemblyReference.cache
