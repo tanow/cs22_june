@@ -1,0 +1,15 @@
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.AssemblyInfoInputs.cache
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.AssemblyInfo.cs
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.csproj.CoreCompileInputs.cache
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\p02_z02.exe
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\p02_z02.deps.json
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\p02_z02.runtimeconfig.json
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\p02_z02.runtimeconfig.dev.json
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\p02_z02.dll
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\ref\p02_z02.dll
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\bin\Debug\net5.0\p02_z02.pdb
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.dll
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\ref\p02_z02.dll
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.pdb
+E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.genruntimeconfig.cache

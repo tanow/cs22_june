@@ -1,0 +1,16 @@
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\p01_z14.exe
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\p01_z14.deps.json
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\p01_z14.runtimeconfig.json
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\p01_z14.runtimeconfig.dev.json
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\p01_z14.dll
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\ref\p01_z14.dll
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\bin\Debug\net5.0\p01_z14.pdb
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.csproj.AssemblyReference.cache
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.AssemblyInfoInputs.cache
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.AssemblyInfo.cs
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.dll
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\ref\p01_z14.dll
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.pdb
+D:\Рабочий стол\lnk\ZdchLnk\p01_z14\obj\Debug\net5.0\p01_z14.genruntimeconfig.cache

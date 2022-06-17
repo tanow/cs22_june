@@ -1,0 +1,5 @@
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z08\bin\Debug\p01-z08.exe.config
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z08\bin\Debug\p01-z08.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z08\bin\Debug\p01-z08.pdb
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z08\obj\Debug\p01-z08.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z08\obj\Debug\p01-z08.pdb

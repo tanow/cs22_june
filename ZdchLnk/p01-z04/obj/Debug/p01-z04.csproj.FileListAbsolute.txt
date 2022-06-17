@@ -1,0 +1,6 @@
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z04\bin\Debug\p01-z04.exe.config
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z04\bin\Debug\p01-z04.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z04\bin\Debug\p01-z04.pdb
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z04\obj\Debug\p01-z04.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z04\obj\Debug\p01-z04.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01-z04\obj\Debug\p01-z04.pdb

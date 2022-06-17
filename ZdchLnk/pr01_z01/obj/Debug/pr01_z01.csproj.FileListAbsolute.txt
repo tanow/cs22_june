@@ -1,0 +1,6 @@
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\pr01_z01\bin\Debug\pr01_z01.exe.config
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\pr01_z01\bin\Debug\pr01_z01.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\pr01_z01\bin\Debug\pr01_z01.pdb
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\pr01_z01\obj\Debug\pr01_z01.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\pr01_z01\obj\Debug\pr01_z01.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\pr01_z01\obj\Debug\pr01_z01.pdb

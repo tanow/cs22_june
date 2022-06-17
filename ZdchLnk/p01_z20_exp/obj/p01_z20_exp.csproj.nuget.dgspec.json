@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj",
+        "projectName": "p01_z20_exp",
+        "projectPath": "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p01_z20_exp\\p01_z20_exp.csproj",
+        "packagesPath": "C:\\Users\\pro-10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p01_z20_exp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pro-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

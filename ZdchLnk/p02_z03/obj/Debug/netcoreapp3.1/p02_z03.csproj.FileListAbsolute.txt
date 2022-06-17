@@ -1,0 +1,14 @@
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.csproj.AssemblyReference.cache
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.AssemblyInfoInputs.cache
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.AssemblyInfo.cs
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.csproj.CoreCompileInputs.cache
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\bin\Debug\netcoreapp3.1\p02_z03.exe
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\bin\Debug\netcoreapp3.1\p02_z03.deps.json
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\bin\Debug\netcoreapp3.1\p02_z03.runtimeconfig.json
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\bin\Debug\netcoreapp3.1\p02_z03.runtimeconfig.dev.json
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\bin\Debug\netcoreapp3.1\p02_z03.dll
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\bin\Debug\netcoreapp3.1\p02_z03.pdb
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.dll
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.pdb
+E:\C#\удалить\lnk\ZdchLnk\p02_z03\obj\Debug\netcoreapp3.1\p02_z03.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01_z19\bin\Debug\p01_z19.exe.config
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01_z19\bin\Debug\p01_z19.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01_z19\bin\Debug\p01_z19.pdb
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01_z19\obj\Debug\p01_z19.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01_z19\obj\Debug\p01_z19.exe
+C:\Users\pro-10\Desktop\удалить\lnk\ZdchLnk\p01_z19\obj\Debug\p01_z19.pdb
+D:\Рабочий стол\lnk\ZdchLnk\p01_z19\bin\Debug\p01_z19.exe.config
+D:\Рабочий стол\lnk\ZdchLnk\p01_z19\bin\Debug\p01_z19.exe
+D:\Рабочий стол\lnk\ZdchLnk\p01_z19\bin\Debug\p01_z19.pdb
+D:\Рабочий стол\lnk\ZdchLnk\p01_z19\obj\Debug\p01_z19.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\lnk\ZdchLnk\p01_z19\obj\Debug\p01_z19.exe
+D:\Рабочий стол\lnk\ZdchLnk\p01_z19\obj\Debug\p01_z19.pdb

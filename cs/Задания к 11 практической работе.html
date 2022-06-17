@@ -1,0 +1,1840 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'/><title>11 Поиск в массиве</title><style>.check_single {
+    margin:15px;
+	border:1px solid black;
+	padding:5px;
+    width:calc(100% - 40px);
+}
+sqrt val {
+	border-top: 1px solid black;
+}
+sqrt:before {
+	content:"\221A";
+}
+.section {
+	counter-reset:section;
+}
+.section h3:after {
+	counter-increment:section;
+	content: " " counter(section);
+}
+table {
+	border-collapse:collapse;
+}
+.check_values {
+	width:100%;
+	counter-reset:test_case;
+}
+.check_values td:first-child::before {
+	counter-increment:test_case;
+	content: counter(test_case);
+}
+table td, table th {
+	border:1px solid black;
+	text-align:center;
+}
+.check_values td:first-child{
+	width:40px;
+}
+.lab_nav ol {
+	list-style:none;
+}
+.nav {
+	position:fixed;
+	top:0px;
+	right:0px;
+	margin:15px;
+	clear:both;
+}
+.nav ul{
+	list-style-type:none;
+	padding:0px;
+	float:left;
+}
+.nav li {
+	margin:2px;
+	border:1px solid black;
+}
+.nav li a {
+	display:block;
+	padding:7px;
+}
+.task_block {
+	width:80%;
+	page-break-inside:avoid;
+	padding:10px;
+	display:block;
+}
+.task_block:target{
+	background-color:lightgrey;
+}
+.task_block:target .task_id{
+	color:white;
+}
+.task_id {
+	float:right;
+	color:lightgrey;
+}
+.quiz_block {
+	width:80%;
+}
+.quiz_block:target{
+	background-color:lightgrey;
+}
+.task_desc {
+	margin:5px;
+}
+.example_image {
+	width:200px;
+}
+.lab_nav {
+	width:80%;
+	overflow:auto;
+}
+.check_values .preformatted, .preformatted {
+	font-family:monospace;
+	white-space:pre;
+	text-align:left;
+	padding:10px;
+}
+.check_values tr:target {
+    background-color:lightgrey;
+}
+formula {
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+}
+fraction {
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+}
+formula .abs{
+	border-left: solid black 1px;
+    border-right: solid black 1px;
+    padding: 2px;
+}
+numerator {
+	display:block;
+	border-bottom:2px solid black;
+}
+denominator {
+	display:block;
+}
+spoiler {
+	color:darkgrey;
+}
+spoiler origin {
+	display:none;
+}
+spoiler:hover origin {
+	display:inline;
+}
+spoiler trans {
+	display:inline;
+}
+spoiler:hover trans {
+	display:none;
+}
+.comment{
+	color:darkgrey;
+}
+.step{
+	display:none;
+}
+.step:last-child, .step:target{
+	display:block;
+}
+.step:target ~ .step:last-child{
+	display:none;
+}
+.console{
+	background-color:black;
+	color:white;
+	width:300px;
+}
+zoom{
+	background-color:gray;
+	font-size:40pt;
+}
+@media print {
+	.nav {
+		display:none;
+	}
+	.lab_nav {
+		display:none;
+	}
+	ol li {
+		margin-bottom:30px;
+	}
+	.quiz_block {
+		width:100%;
+	}
+	.hide_on_print .check_values, .hide_on_print .check_single{
+		display:none;
+	}
+	.hide_on_print img{
+		display:none;
+	}
+	.empty_on_print td{
+		color:transparent;
+	}
+	.empty_on_print img{
+		visibility:hidden;
+	}
+}</style><meta name="author" content="Подборка задач, выбор порядка подачи и подготовка тестовых данных - Крюков Александр, Омск 2013-2019"/></head><body class='section'><a name='heading'><h1>Поиск в массиве</h1></a><div class='lab_nav'>Другие темы<ol><li>1 <a href='Задания к 1 практической работе.html'>Заполнение шаблона текстом</a></li><li>2 <a href='Задания к 2 практической работе.html'>Организация вычислений</a></li><li>3 <a href='Задания к 3 практической работе.html'>Проверка исходных данных</a></li><li>4 <a href='Задания к 4 практической работе.html'>Взаимоисключающие случаи</a></li><li>5 <a href='Задания к 5 практической работе.html'>Работа с интервалами значений</a></li><li>6 <a href='Задания к 6 практической работе.html'>Реорганизация повторяющихся действий</a></li><li>7 <a href='Задания к 7 практической работе.html'>Вложенные циклы</a></li><li>8 <a href='Задания к 8 практической работе.html'>Базовые операции с массивами</a></li><li>9 <a href='Задания к 9 практической работе.html'>Использование числовых массивов</a></li><li>10 <a href='Задания к 10 практической работе.html'>Вычисление агрегатов</a></li><li>11 <a href='Задания к 11 практической работе.html'>Поиск в массиве</a></li><li>12 <a href='Задания к 12 практической работе.html'>Строки</a></li><li>13 <a href='Задания к 13 практической работе.html'>Обработка неизвестного объема данных</a></li><li>14 <a href='Задания к 14 практической работе.html'>Запись в файлы</a></li><li>15 <a href='Задания к 15 практической работе.html'>Методы</a></li><li>16 <a href='Задания к 16 практической работе.html'>Исключения</a></li><li>17 <a href='Задания к 17 практической работе.html'>Составные типы данных</a></li><li>18 <a href='Задания к 18 практической работе.html'>Внутреннее состояние</a></li><li>19 <a href='Задания к 19 практической работе.html'>Коллекции</a></li></ol></div><div class='nav'><ul><li><a href='#heading'>^</a></li><li><a href='#task5694' class='example'>1*</a><li><a href='#task6806'>2</a><li><a href='#task2234'>3</a><li><a href='#task2003' class='example'>4*</a><li><a href='#task8158'>5</a><li><a href='#task1292'>6</a><li><a href='#task4283'>7</a><li><a href='#task7703'>8</a><li><a href='#task7369' class='example'>9*</a><li><a href='#task6988'>10</a><li><a href='#task2497'>11</a><li><a href='#task5894'>12</a><li><a href='#task4515'>13</a><li><a href='#task9827'>14</a><li><a href='#task7793'>15</a></ul><ul><li><a href='#task7035' class='example'>16*</a><li><a href='#task1522'>17</a><li><a href='#task9271'>18</a><li><a href='#task8769'>19</a><li><a href='#task4707'>20</a><li><a href='#task1392'>21</a><li><a href='#task6492'>22</a><li><a href='#task5541'>23</a><li><a href='#task9182'>24</a></ul></div><div id="task5694" class="task_block empty_on_print">
+	<div class="task_id">5694</div>
+<h3>Задача</h3>
+<div class="task_desc">Пользователь вводит символ (X), который может быть одной из букв: a,b,c,d,e,f,g,h. Нужно вывести все эти буквы в столбик и написать слово "Найдено" справа от введенной буквы X.</div>
+<table class="check_values">
+	<tr>
+		<th>Номер теста</th>
+		<th>Вводимые данные (X)</th>
+		<th>Результат</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>a</td>
+		<td class="preformatted">a Найдено
+b
+c
+d
+e
+f
+g
+h</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>d</td>
+		<td class="preformatted">a
+b
+c
+d Найдено
+e
+f
+g
+h</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>h</td>
+		<td class="preformatted">a
+b
+c
+d
+e
+f
+g
+h Найдено</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>i</td>
+		<td class="preformatted">a
+b
+c
+d
+e
+f
+g
+h</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>z</td>
+		<td class="preformatted">a
+b
+c
+d
+e
+f
+g
+h</td>
+	</tr>
+</table>
+</div><div id="task6806" class="task_block empty_on_print">
+	<div class="task_id">6806</div>
+<h3>Задача</h3>
+<div class="task_desc">Дано число (X) в интервале от 10 до 20. Нужно вывести числа от 10 до 20 включительно в столбик в следующем порядке: 11, 13, 17, 19, 10, 12, 14, 15, 16, 18, 20 и написать слово "Найдено" справа от введенного числа X.</div>
+<table class="check_values">
+	<tr>
+		<th>Номер теста</th>
+		<th>Вводимые данные (X)</th>
+		<th>Результат</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>10</td>
+		<td class="preformatted">11
+13
+17
+19
+10 Найдено
+12
+14
+15
+16
+18
+20</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>15</td>
+		<td class="preformatted">11
+13
+17
+19
+10
+12
+14
+15 Найдено
+16
+18
+20</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>20</td>
+		<td class="preformatted">11
+13
+17
+19
+10
+12
+14
+15
+16
+18
+20 Найдено</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>9</td>
+		<td class="preformatted">11
+13
+17
+19
+10
+12
+14
+15
+16
+18
+20</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>23</td>
+		<td class="preformatted">11
+13
+17
+19
+10
+12
+14
+15
+16
+18
+20</td>
+	</tr>
+</table>
+</div><div id="task2234" class="task_block">
+	<div class="task_id">2234</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит зашифрованное сообщение на азбуке Морзе. Нужно зашифровать его и вывести результат. Буквы Морзе разделены пробелом. Любая буква не из списка превращается в вопросительный знак.</div>
+	<table class="check_values">
+		<tr>
+			<th>№ п/п</th>
+			<th>Русский символ</th>
+			<th>Код Морзе</th>
+		</tr>
+		<tr><td></td><td>?</td><td>..--..</td></tr>
+		<tr><td></td><td>А</td><td>.-</td></tr>
+		<tr><td></td><td>Б</td><td>-...</td></tr>
+		<tr><td></td><td>В</td><td>.--</td></tr>
+		<tr><td></td><td>Г</td><td>--.</td></tr>
+		<tr><td></td><td>Д</td><td>-..</td></tr>
+		<tr><td></td><td>Е</td><td>.</td></tr>
+		<tr><td></td><td>Ж</td><td>...-</td></tr>
+		<tr><td></td><td>З</td><td>--..</td></tr>
+		<tr><td></td><td>И</td><td>..</td></tr>
+		<tr><td></td><td>Й</td><td>.---</td></tr>
+		<tr><td></td><td>К</td><td>-.-</td></tr>
+		<tr><td></td><td>Л</td><td>.-..</td></tr>
+		<tr><td></td><td>М</td><td>--</td></tr>
+		<tr><td></td><td>Н</td><td>-.</td></tr>
+		<tr><td></td><td>О</td><td>---</td></tr>
+		<tr><td></td><td>П</td><td>.--.</td></tr>
+		<tr><td></td><td>Р</td><td>.-.</td></tr>
+		<tr><td></td><td>С</td><td>...</td></tr>
+		<tr><td></td><td>Т</td><td>-</td></tr>
+		<tr><td></td><td>У</td><td>..-</td></tr>
+		<tr><td></td><td>Ф</td><td>..-.</td></tr>
+		<tr><td></td><td>Х</td><td>....</td></tr>
+		<tr><td></td><td>Ц</td><td>-.-.</td></tr>
+		<tr><td></td><td>Ч</td><td>---.</td></tr>
+		<tr><td></td><td>Ш</td><td>----</td></tr>
+		<tr><td></td><td>Щ</td><td>--.-</td></tr>
+		<tr><td></td><td>Ъ</td><td>--.--</td></tr>
+		<tr><td></td><td>Ы</td><td>-.--</td></tr>
+		<tr><td></td><td>Ь</td><td>--.--</td></tr>
+		<tr><td></td><td>Э</td><td>..-..</td></tr>
+		<tr><td></td><td>Ю</td><td>..--</td></tr>
+		<tr><td></td><td>Я</td><td>.-.-</td></tr>
+		<tr><td></td><td>1</td><td>.----</td></tr>
+		<tr><td></td><td>2</td><td>..---</td></tr>
+		<tr><td></td><td>3</td><td>...--</td></tr>
+		<tr><td></td><td>4</td><td>....-</td></tr>
+		<tr><td></td><td>5</td><td>.....</td></tr>
+		<tr><td></td><td>6</td><td>-....</td></tr>
+		<tr><td></td><td>7</td><td>--...</td></tr>
+		<tr><td></td><td>8</td><td>---..</td></tr>
+		<tr><td></td><td>9</td><td>----.</td></tr>
+		<tr><td></td><td>0</td><td>-----</td></tr>
+		
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">-.. --- -... .-. -.-- .--- -.. . -. ..-..</td>
+			<td class="preformatted">ДОБРЫЙДЕНЬ</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">.--. . .-. . -.. .- .-- .- .--- - . -- . -.. .-.. . -. -. . .</td>
+			<td class="preformatted">ПЕРЕДАВАЙТЕМЕДЛЕННЕЕ</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">.-.- -. .. ---. . --. --- -. . .--. --- -. .. -- .- ..--</td>
+			<td class="preformatted">ЯНИЧЕГОНЕПОНИМАЮ</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">.--. --- -- --- --. .. - .</td>
+			<td class="preformatted">ПОМОГИТЕ</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">-. .- -. .- ... . -.. . - ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--.. ..--..</td>
+			<td class="preformatted">НАНАСЕДЕТ????????????????</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">-.- --- --- .-. -.. .. -. .- - -.-- -.-. . .-.. .. .---- ...-- .. ----. -----</td>
+			<td class="preformatted">КООРДИНАТЫЦЕЛИ13И90</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">.--. .-. --- -- .- ....</td>
+			<td class="preformatted">ПРОМАХ</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">.--. --- .--. .- .-..</td>
+			<td class="preformatted">ПОПАЛ</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preformatted">-.- --- -. . -.-. ... .-- .-.- --.. ..</td>
+			<td class="preformatted">КОНЕЦСВЯЗИ</td>
+		</tr>
+	</table>
+</div><div id='task2003' class='task_block'>
+<div class='task_id'>2003</div>
+<h3>Задача</h3>
+<div class='task_desc'>
+Пользователь вводит символ массив символов с разделителем ";". Определить, присутствует ли в данном массиве символ "x".
+</div>
+<table class='check_values'>
+<tr>
+<th>Номер теста</th>
+<th>Исходные данные (data)</th>
+<th>Результат</th>
+</tr>
+<tr>
+<td></td>
+<td>a;s;d;f</td>
+<td class='preformatted'>Символ 'x' отсутствует
+</td>
+</tr>
+<tr>
+<td></td>
+<td>z;x;c;v</td>
+<td class='preformatted'>Символ 'x' найден на позиции '1'
+</td>
+</tr>
+<tr>
+<td></td>
+<td>q;a;z;w;s;x;e;d;c</td>
+<td class='preformatted'>Символ 'x' найден на позиции '5'
+</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td class='preformatted'>Символ 'x' отсутствует
+</td>
+</tr>
+<tr>
+<td></td>
+<td>x</td>
+<td class='preformatted'>Символ 'x' найден на позиции '0'
+</td>
+</tr>
+<tr>
+<td></td>
+<td>x;x;x;x;x;x;x</td>
+<td class='preformatted'>Символ 'x' найден на позиции '0'
+</td>
+</tr>
+</table>
+</div>
+<div id='task8158' class='task_block'>
+<div class='task_id'>8158</div>
+<h3>Задача</h3>
+<div class='task_desc'>
+Дан массив символов "a,b,c,d,e,f,g,h,a,b,c,d,e". Пользователь вводит два отдельных символа. По каждому из символов нужно написать, присутствует он в массиве или нет.
+</div>
+<table class='check_values'>
+<tr>
+<th rowspan='2'>Номер теста</th>
+<th colspan='2'>Исходные данные</th>
+<th rowspan='2'>Результат</th>
+</tr>
+<tr>
+<th>
+first
+</th>
+<th>
+second
+</th>
+</tr>
+<tr>
+<td></td>
+<td>
+a
+</td>
+<td>
+x
+</td>
+<td class='preformatted'>Символ 'a' найден
+Символ 'x' отсутствует
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+y
+</td>
+<td>
+d
+</td>
+<td class='preformatted'>Символ 'y' отсутствует
+Символ 'd' найден
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+b
+</td>
+<td>
+f
+</td>
+<td class='preformatted'>Символ 'b' найден
+Символ 'f' найден
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+w
+</td>
+<td>
+u
+</td>
+<td class='preformatted'>Символ 'w' отсутствует
+Символ 'u' отсутствует
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+e
+</td>
+<td>
+e
+</td>
+<td class='preformatted'>Символ 'e' найден
+Символ 'e' найден
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+i
+</td>
+<td>
+i
+</td>
+<td class='preformatted'>Символ 'i' отсутствует
+Символ 'i' отсутствует
+</td>
+</tr>
+</table>
+</div>
+<div id="task1292" class="task_block empty_on_print">
+	<div class="task_id">1292</div>
+<h3>Задача</h3>
+<div class="task_desc">Пользователь вводит символ (X), который может быть одной из букв: a,b,c,d,e,f,g,h. Нужно выводить все эти буквы в строчку, пока не будет выведена буква X.</div>
+<table class="check_values">
+	<tr>
+		<th>Номер теста</th>
+		<th>Вводимые данные (X)</th>
+		<th>Результат</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>a</td>
+		<td class="preformatted">a</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>b</td>
+		<td class="preformatted">ab</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>d</td>
+		<td class="preformatted">abcd</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>h</td>
+		<td class="preformatted">abcdefgh</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>i</td>
+		<td class="preformatted">abcdefgh</td>
+	</tr>
+</table>
+</div><div id="task4283" class="task_block empty_on_print">
+	<div class="task_id">4283</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит число K и данные - символы, разделенные пробелами. Посчитать сколько раз встречается переменная K в массиве.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>K</th>
+			<th>Данные</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>e</td>
+			<td>q w e r q w</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>t</td>
+			<td>q w e r q w e r q w e</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>w</td>
+			<td>e w w w w w</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q</td>
+			<td>r r r r r r</td>
+			<td>0</td>
+		</tr>
+	</table>
+</div><div id="task7703" class="task_block empty_on_print">
+	<div class="task_id">7703</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - символы, разделенные пробелами. Создать новый массив и записать в него сколько раз встречается каждый из элементов.</div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e e q w</td>
+			<td>2 2 1 1 2 2</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e r q w e r q w e</td>
+			<td>3 3 3 2 3 3 3 2 3 3 3</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>e w w w w w</td>
+			<td>1 5 5 5 5 5</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>r r r r r r</td>
+			<td>6 6 6 6 6 6</td>
+		</tr>
+	</table>
+</div><div id="task7369" class="task_block empty_on_print">
+	<div class="task_id">7369</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит два массива данных. Сравнить содержимое двух массивов и вывести результат в виде таблицы. Значения первого массива - заголовки колонок. Значения второго массива - заголовки строк. Если заголовок колонки совпадает с заголовком строки, то в ячейке нужно поставить плюс.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Данные сверху(top)</th>
+			<th>Данные слева(left)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q a z w s x</td>
+			<td>q w e</td>
+			<td class="preformatted">  q a z w s x
+q +          |
+w       +    |
+e            |
+ ------------</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>e d c</td>
+			<td>a s d f g h j</td>
+			<td class="preformatted">  e d c
+a      |
+s      |
+d   +  |
+f      |
+g      |
+h      |
+j      |
+ ------</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a a a a</td>
+			<td>a a a a</td>
+			<td class="preformatted">  a a a a
+a + + + +|
+a + + + +|
+a + + + +|
+a + + + +|
+ --------</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>r f v</td>
+			<td></td>
+			<td class="preformatted">Данные слева отсутствуют</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>z x c v</td>
+			<td class="preformatted">Данные сверху отсутствуют</td>
+		</tr>
+	</table>
+</div><div id="task6988" class="task_block empty_on_print">
+	<div class="task_id">6988</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит два массива данных - фрагменты текста. Вывести на экран индекс элемента, на котором массивы начинают отличаться.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Данные слева(left)</th>
+			<th>Данные справа(right)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a s d f a</td>
+			<td>a s d f a</td>
+			<td>Массивы одинаковы</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a s d f a</td>
+			<td>a s d f g</td>
+			<td>Массивы начинают различаться на индексе 4</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qwerty asdfgh zxcvb</td>
+			<td>qwerty asdfgh asdfgh</td>
+			<td>Массивы начинают различаться на индексе 2</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qaz wsx edc</td>
+			<td>wsx edc qaz</td>
+			<td>Массивы начинают различаться на индексе 0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qaz wsx edc</td>
+			<td>qaz wsx edc rfv</td>
+			<td>Массивы начинают различаться на индексе 3</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qaz wsx edc rfv tgb</td>
+			<td>qaz wsx edc rfv</td>
+			<td>Массивы начинают различаться на индексе 4</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qaz wsx edc</td>
+			<td>qaz tgb ujm yhn</td>
+			<td>Массивы начинают различаться на индексе 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qaz wsx vbn rfv tgb</td>
+			<td>qaz wsx edc</td>
+			<td>Массивы начинают различаться на индексе 2</td>
+		</tr>
+	</table>
+</div><div id='task2497' class='task_block'>
+<div class='task_id'>2497</div>
+<h3>Задача</h3>
+<div class='task_desc'>
+Пользователь вводит два массива: левый и правый. Элементы в них разделены запятой ','. Если каждый элемент левого массива строго меньше чем все элементы правого массива, написать 'Правильно'. В противном случае, надо написать индексы и значения элементов, которые нарушают правило. Хотя бы одну пару.
+</div>
+<table class='check_values'>
+<tr>
+<th rowspan='2'>Номер теста</th>
+<th colspan='2'>Исходные данные</th>
+<th rowspan='2'>Результат</th>
+</tr>
+<tr>
+<th>
+левый массив(left)
+</th>
+<th>
+правый массив (right)
+</th>
+</tr>
+<tr>
+<td></td>
+<td>
+3
+</td>
+<td>
+9,8,7,6
+</td>
+<td class='preformatted'>Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+Правильно
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+5,4,3,2,1
+</td>
+<td>
+9
+</td>
+<td class='preformatted'>Элемент 5 прошел проверку. Он меньше всех элементов правого массива
+Элемент 4 прошел проверку. Он меньше всех элементов правого массива
+Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+Элемент 2 прошел проверку. Он меньше всех элементов правого массива
+Элемент 1 прошел проверку. Он меньше всех элементов правого массива
+Правильно
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+7
+</td>
+<td>
+9,8,7
+</td>
+<td class='preformatted'>Элемент 7 на индексе 0 левого массива равен элементу правого массива на индексе 2
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+5,4,3
+</td>
+<td>
+9,8,7,6
+</td>
+<td class='preformatted'>Элемент 5 прошел проверку. Он меньше всех элементов правого массива
+Элемент 4 прошел проверку. Он меньше всех элементов правого массива
+Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+Правильно
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+5,4,10
+</td>
+<td>
+9,8,7
+</td>
+<td class='preformatted'>Элемент 5 прошел проверку. Он меньше всех элементов правого массива
+Элемент 4 прошел проверку. Он меньше всех элементов правого массива
+Элемент 10 на индексе 2 левого массива больше элемента 9 на индексе 0 правого массива
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+15,4,3
+</td>
+<td>
+9,8,7,6,5
+</td>
+<td class='preformatted'>Элемент 15 на индексе 0 левого массива больше элемента 9 на индексе 0 правого массива
+Элемент 4 прошел проверку. Он меньше всех элементов правого массива
+Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+5,4,3,2,1
+</td>
+<td>
+9,8,7,6
+</td>
+<td class='preformatted'>Элемент 5 прошел проверку. Он меньше всех элементов правого массива
+Элемент 4 прошел проверку. Он меньше всех элементов правого массива
+Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+Элемент 2 прошел проверку. Он меньше всех элементов правого массива
+Элемент 1 прошел проверку. Он меньше всех элементов правого массива
+Правильно
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+6,5,4,3
+</td>
+<td>
+9,8,7,6
+</td>
+<td class='preformatted'>Элемент 6 на индексе 0 левого массива равен элементу правого массива на индексе 3
+Элемент 5 прошел проверку. Он меньше всех элементов правого массива
+Элемент 4 прошел проверку. Он меньше всех элементов правого массива
+Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+6,5,14,3
+</td>
+<td>
+9,8,7,6
+</td>
+<td class='preformatted'>Элемент 6 на индексе 0 левого массива равен элементу правого массива на индексе 3
+Элемент 5 прошел проверку. Он меньше всех элементов правого массива
+Элемент 14 на индексе 2 левого массива больше элемента 9 на индексе 0 правого массива
+Элемент 3 прошел проверку. Он меньше всех элементов правого массива
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+
+</td>
+<td>
+3,2,1
+</td>
+<td class='preformatted'>Левый массив пуст
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+9,8,7
+</td>
+<td>
+
+</td>
+<td class='preformatted'>Правый массив пуст
+</td>
+</tr>
+<div class='task_desc'>
+Попробуйте решить это задание правильно по смыслу, но так чтобы напечатался другой текст в тестах с нарушениями правила.
+</div>
+</table>
+</div>
+<div id="task5894" class="task_block empty_on_print">
+	<div class="task_id">5894</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит два массива данных. Сравнить содержимое двух массивов и посчитать количество элементов, присутствующих в обоих массивах.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Данные сверху(top)</th>
+			<th>Данные слева(left)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q a z</td>
+			<td>q w e</td>
+			<td>Повторений: 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qw fg hj ty kl</td>
+			<td>qw er ty ui op</td>
+			<td>Повторений: 2</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>oiuy hjkl vbmn</td>
+			<td>asdf ghjk</td>
+			<td>Повторений: 0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a s d f</td>
+			<td></td>
+			<td>Данные слева отсутствуют</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>zxc vbn</td>
+			<td>Данные сверху отсутствуют</td>
+		</tr>
+	</table>
+</div><div id='task4515' class='task_block'>
+<div class='task_id'>4515</div>
+<h3>Задача</h3>
+<div class='task_desc'>
+Пользователь вводит данные - символы, разделенные пробелами. Проверить, есть ли среди введенных символов повторения.
+</div>
+<table class='check_values'>
+<tr>
+<th>Номер теста</th>
+<th>Исходные данные (N)</th>
+<th>Результат (sum)</th>
+</tr>
+<tr>
+<td></td>
+<td>q w e r</td>
+<td class='preformatted'>Повторений нет
+</td>
+</tr>
+<tr>
+<td></td>
+<td>q w q r</td>
+<td class='preformatted'>Повторения есть
+</td>
+</tr>
+<tr>
+<td></td>
+<td>q w e q</td>
+<td class='preformatted'>Повторения есть
+</td>
+</tr>
+<tr>
+<td></td>
+<td>q w e w</td>
+<td class='preformatted'>Повторения есть
+</td>
+</tr>
+<tr>
+<td></td>
+<td>r r r r</td>
+<td class='preformatted'>Повторения есть
+</td>
+</tr>
+<tr>
+<td></td>
+<td>a b c d q w e r</td>
+<td class='preformatted'>Повторений нет
+</td>
+</tr>
+</table>
+</div>
+<div id="task9827" class="task_block empty_on_print">
+	<div class="task_id">9827</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит два массива данных - фрагменты текста. Вывести на экран все элементы из левого массива, которых нет в правом.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Данные слева(left)</th>
+			<th>Данные справа(right)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>one two three four</td>
+			<td>one four five six</td>
+			<td>two three</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>one two three four</td>
+			<td>one two three four</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>one two three four</td>
+			<td></td>
+			<td>one two three four</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div><div id="task7793" class="task_block empty_on_print">
+	<div class="task_id">7793</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит два массива данных: красный и зеленый. Вывести на экран три группы элементов.
+Сначала те, что есть только в красном фрагменте.
+Следом те элементы, которые есть и в красном и в зеленом. В конце - элементы, которые есть только в зеленом.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Красный массив(red)</th>
+			<th>Зеленый массив(green)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qw er ty ui</td>
+			<td>as er df qw</td>
+			<td class="preformatted">Только в красном
+ty
+ui
+Есть в обоих
+qw
+er
+Только в зеленом
+as
+df</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>qw er ty ui</td>
+			<td>as df gh jk</td>
+			<td class="preformatted">Только в красном
+qw
+er
+ty
+ui
+Есть в обоих
+Только в зеленом
+as
+df
+gh
+jk</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>zx cv bn</td>
+			<td>zx cv bn</td>
+			<td class="preformatted">Только в красном
+Есть в обоих
+zx
+cv
+bn
+Только в зеленом</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e r t y</td>
+			<td>y e q a s d</td>
+			<td class="preformatted">Только в красном
+w
+r
+t
+Есть в обоих
+q
+e
+y
+Только в зеленом
+a
+s
+d</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a a a a a a</td>
+			<td>a</td>
+			<td class="preformatted">Только в красном
+Есть в обоих
+a
+a
+a
+a
+a
+a
+Только в зеленом</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>b</td>
+			<td>b b b b b b</td>
+			<td class="preformatted">Только в красном
+Есть в обоих
+b
+Только в зеленом</td>
+		</tr>
+	</table>
+</div><div id="task7035" class="task_block empty_on_print">
+	<div class="task_id">7035</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - целые числа, разделенные пробелами. Нужно найти минимальное число.</div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>6 5 7 8 3 4 1</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 6
+Сравниваю 6 и 5
+Заменяю
+Сравниваю 5 и 7
+Сравниваю 5 и 8
+Сравниваю 5 и 3
+Заменяю
+Сравниваю 3 и 4
+Сравниваю 3 и 1
+Заменяю
+В массиве {6 5 7 8 3 4 1} минимальный элемент это 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4 5 6</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 1
+Сравниваю 1 и 2
+Сравниваю 1 и 3
+Сравниваю 1 и 4
+Сравниваю 1 и 5
+Сравниваю 1 и 6
+В массиве {1 2 3 4 5 6} минимальный элемент это 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>3 4 1 2 3 4 1 2 3 1 2</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 3
+Сравниваю 3 и 4
+Сравниваю 3 и 1
+Заменяю
+Сравниваю 1 и 2
+Сравниваю 1 и 3
+Сравниваю 1 и 4
+Сравниваю 1 и 1
+Сравниваю 1 и 2
+Сравниваю 1 и 3
+Сравниваю 1 и 1
+Сравниваю 1 и 2
+В массиве {3 4 1 2 3 4 1 2 3 1 2} минимальный элемент это 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 2 3 4 3 2</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 4
+Сравниваю 4 и 2
+Заменяю
+Сравниваю 2 и 3
+Сравниваю 2 и 4
+Сравниваю 2 и 3
+Сравниваю 2 и 2
+В массиве {4 2 3 4 3 2} минимальный элемент это 2</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 4 4 4 4 3 8 9</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 4
+Сравниваю 4 и 4
+Сравниваю 4 и 4
+Сравниваю 4 и 4
+Сравниваю 4 и 4
+Сравниваю 4 и 3
+Заменяю
+Сравниваю 3 и 8
+Сравниваю 3 и 9
+В массиве {4 4 4 4 4 3 8 9} минимальный элемент это 3</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 4 4 4</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 4
+Сравниваю 4 и 4
+Сравниваю 4 и 4
+Сравниваю 4 и 4
+В массиве {4 4 4 4} минимальный элемент это 4</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 3</td>
+			<td class="preformatted">Ход решения: 
+Начинаю с 4
+Сравниваю 4 и 3
+Заменяю
+В массиве {4 3} минимальный элемент это 3</td>
+		</tr>
+	</table>
+</div><div id='task1522' class='task_block'>
+<div class='task_id'>1522</div>
+<h3>Задача</h3>
+<div class='task_desc'>
+Пользователь вводит данные - числа, разделенные символом "_". Найти разницу между максимальным и минимальным элементом.
+</div>
+<table class='check_values'>
+<tr>
+<th>Номер теста</th>
+<th>Исходные данные (N)</th>
+<th>Результат (sum)</th>
+</tr>
+<tr>
+<td></td>
+<td>9_8_7_6_5_4</td>
+<td class='preformatted'>Ход решения:
+Промежуточное минимальное 8
+Промежуточное минимальное 7
+Промежуточное минимальное 6
+Промежуточное минимальное 5
+Промежуточное минимальное 4
+Итоговое минимальное 4
+Итоговое максимальное 9
+Разница 5
+</td>
+</tr>
+<tr>
+<td></td>
+<td>5_9_1_6_7_3</td>
+<td class='preformatted'>Ход решения:
+Промежуточное максимальное 9
+Промежуточное минимальное 1
+Итоговое минимальное 1
+Итоговое максимальное 9
+Разница 8
+</td>
+</tr>
+<tr>
+<td></td>
+<td>100_5_64_3_87</td>
+<td class='preformatted'>Ход решения:
+Промежуточное минимальное 5
+Промежуточное минимальное 3
+Итоговое минимальное 3
+Итоговое максимальное 100
+Разница 97
+</td>
+</tr>
+<tr>
+<td></td>
+<td>3_4_5_6_7_8</td>
+<td class='preformatted'>Ход решения:
+Промежуточное максимальное 4
+Промежуточное максимальное 5
+Промежуточное максимальное 6
+Промежуточное максимальное 7
+Промежуточное максимальное 8
+Итоговое минимальное 3
+Итоговое максимальное 8
+Разница 5
+</td>
+</tr>
+<tr>
+<td></td>
+<td>8_8_8_8_8_8</td>
+<td class='preformatted'>Ход решения:
+Итоговое минимальное 8
+Итоговое максимальное 8
+Разница 0
+</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td class='preformatted'>Исходная строка пуста
+</td>
+</tr>
+<tr>
+<td></td>
+<td>5_-5_0</td>
+<td class='preformatted'>Ход решения:
+Промежуточное минимальное -5
+Итоговое минимальное -5
+Итоговое максимальное 5
+Разница 10
+</td>
+</tr>
+</table>
+</div>
+<div id="task9271" class="task_block empty_on_print">
+	<div class="task_id">9271</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - целые числа, разделенные пробелами. Найти минимальное число и вычесть его из всех элементов массива.</div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>5 4 6 2 3 1</td>
+			<td>4 3 5 1 2 0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4 1 2</td>
+			<td>0 1 2 3 0 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>3 4 1 2 3 4 1 2 3 1 2</td>
+			<td>2 3 0 1 2 3 0 1 2 0 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 2 3 4 3 2</td>
+			<td>2 0 1 2 1 0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 4 4 4 4 3 2 1</td>
+			<td>3 3 3 3 3 2 1 0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 4 4 4</td>
+			<td>0 0 0 0</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 3</td>
+			<td>1 0</td>
+		</tr>
+	</table>
+</div><div id="task8769" class="task_block empty_on_print">
+	<div class="task_id">8769</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит числа P и Q и данные - целые числа, разделенные пробелами. Напечатать элементы, у которых индекс находится между P и Q включительно. Найти минимальное число между элементами с номерами P и Q включительно.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="3">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Данные</th>
+			<th>P</th>
+			<th>Q</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4 1 2</td>
+			<td>1</td>
+			<td>3</td>
+			<td class="preformatted">Фрагмент массива: 2 3 4
+Минимальное среди них: 2</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>3 4 4 2 3 4 1 2 3 1 2</td>
+			<td>8</td>
+			<td>10</td>
+			<td class="preformatted">Фрагмент массива: 3 1 2
+Минимальное среди них: 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>11 12 13 5 11 12</td>
+			<td>1</td>
+			<td>4</td>
+			<td class="preformatted">Фрагмент массива: 12 13 5 11
+Минимальное среди них: 5</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 2 3 4 3 2</td>
+			<td>0</td>
+			<td>5</td>
+			<td class="preformatted">Фрагмент массива: 4 2 3 4 3 2
+Минимальное среди них: 2</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 4 4 4 4 3 2 1</td>
+			<td>0</td>
+			<td>5</td>
+			<td class="preformatted">Фрагмент массива: 4 4 4 4 4 3
+Минимальное среди них: 3</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4 1 2</td>
+			<td>4</td>
+			<td>2</td>
+			<td class="preformatted">Фрагмент массива: 3 4 1
+Минимальное среди них: 1</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 4 4 4</td>
+			<td>1</td>
+			<td>7</td>
+			<td class="preformatted">Число Q должно быть в интервале [0, размер массива)</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>4 3</td>
+			<td>-1</td>
+			<td>0</td>
+			<td class="preformatted">Число P должно быть в интервале [0, размер массива)</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4</td>
+			<td>5</td>
+			<td>10</td>
+			<td class="preformatted">Число P должно быть в интервале [0, размер массива)</td>
+		</tr>
+	</table>
+</div><div id="task4707" class="task_block empty_on_print">
+	<div class="task_id">4707</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - целые числа, разделенные пробелами. Реализовать алгоритм сортировки по возрастанию:
+	<ol>
+		<li>Найдите номер минимального значения в текущем списке</li>
+		<li>Обменяйте это значение со значением первой неотсортированной позиции</li>
+		<li>Отсортируйте хвост списка, исключив из рассмотрения уже отсортированные элементы</li>
+	</ol></div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат (ход решения)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>9 8 9 1 1 5 1 1</td>
+			<td class="preformatted">9 8 9 1 1 5 1 1
+Минимальное значение 1 на индексе 3. Первая неотсортированная позиция: 0
+1 8 9 9 1 5 1 1
+Минимальное значение 1 на индексе 4. Первая неотсортированная позиция: 1
+1 1 9 9 8 5 1 1
+Минимальное значение 1 на индексе 6. Первая неотсортированная позиция: 2
+1 1 1 9 8 5 9 1
+Минимальное значение 1 на индексе 7. Первая неотсортированная позиция: 3
+1 1 1 1 8 5 9 9
+Минимальное значение 5 на индексе 5. Первая неотсортированная позиция: 4
+1 1 1 1 5 8 9 9
+Минимальное значение 8 на индексе 5. Первая неотсортированная позиция: 5
+1 1 1 1 5 8 9 9
+Минимальное значение 9 на индексе 6. Первая неотсортированная позиция: 6
+1 1 1 1 5 8 9 9</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4 1 3 4 4 4 4</td>
+			<td class="preformatted">1 2 3 4 1 3 4 4 4 4
+Минимальное значение 1 на индексе 0. Первая неотсортированная позиция: 0
+1 2 3 4 1 3 4 4 4 4
+Минимальное значение 1 на индексе 4. Первая неотсортированная позиция: 1
+1 1 3 4 2 3 4 4 4 4
+Минимальное значение 2 на индексе 4. Первая неотсортированная позиция: 2
+1 1 2 4 3 3 4 4 4 4
+Минимальное значение 3 на индексе 4. Первая неотсортированная позиция: 3
+1 1 2 3 4 3 4 4 4 4
+Минимальное значение 3 на индексе 5. Первая неотсортированная позиция: 4
+1 1 2 3 3 4 4 4 4 4
+Минимальное значение 4 на индексе 5. Первая неотсортированная позиция: 5
+1 1 2 3 3 4 4 4 4 4
+Минимальное значение 4 на индексе 6. Первая неотсортированная позиция: 6
+1 1 2 3 3 4 4 4 4 4
+Минимальное значение 4 на индексе 7. Первая неотсортированная позиция: 7
+1 1 2 3 3 4 4 4 4 4
+Минимальное значение 4 на индексе 8. Первая неотсортированная позиция: 8
+1 1 2 3 3 4 4 4 4 4 </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>5 5 5 5 5</td>
+			<td class="preformatted">5 5 5 5 5
+Минимальное значение 5 на индексе 0. Первая неотсортированная позиция: 0
+5 5 5 5 5
+Минимальное значение 5 на индексе 1. Первая неотсортированная позиция: 1
+5 5 5 5 5
+Минимальное значение 5 на индексе 2. Первая неотсортированная позиция: 2
+5 5 5 5 5
+Минимальное значение 5 на индексе 3. Первая неотсортированная позиция: 3
+5 5 5 5 5 </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Массив пуст</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>17</td>
+			<td>17</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 9 1 30 9 1 100</td>
+			<td class="preformatted">1 1 1 9 9 100 30
+Минимальное значение 1 на индексе 0. Первая неотсортированная позиция: 0
+1 1 1 9 9 100 30
+Минимальное значение 1 на индексе 1. Первая неотсортированная позиция: 1
+1 1 1 9 9 100 30
+Минимальное значение 1 на индексе 2. Первая неотсортированная позиция: 2
+1 1 1 9 9 100 30
+Минимальное значение 9 на индексе 3. Первая неотсортированная позиция: 3
+1 1 1 9 9 100 30
+Минимальное значение 9 на индексе 4. Первая неотсортированная позиция: 4
+1 1 1 9 9 100 30
+Минимальное значение 30 на индексе 6. Первая неотсортированная позиция: 5
+1 1 1 9 9 30 100 </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1000000 1 1</td>
+			<td class="preformatted">1000000 1 1
+Минимальное значение 1 на индексе 1. Первая неотсортированная позиция: 0
+1 1000000 1
+Минимальное значение 1 на индексе 2. Первая неотсортированная позиция: 1
+1 1 1000000</td>
+		</tr>
+	</table>
+</div><div id="task1392" class="task_block empty_on_print">
+	<div class="task_id">1392</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - целые числа, разделенные пробелами. Найти медиану для множества введенных элементов. Медиана — это число, которое является серединой множества чисел. Если множество содержит четное количество чисел, нужно вычислить среднее для двух чисел, находящихся в середине множества. Результат вывести с точностью 2 знака после запятой.</div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>9 8 9 1 1 5 1 1</td>
+			<td>Медиана: 3,00</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 2 3 4 1 3 4 4 4 4</td>
+			<td>Медиана: 3,50</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>5 5 5 5 5</td>
+			<td>Медиана: 5</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Массив пуст</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>13</td>
+			<td>Медиана: 13</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1 9 1 30 9 1 100</td>
+			<td>Медиана: 9</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>1000000 1 1</td>
+			<td>Медиана: 1</td>
+		</tr>
+	</table>
+</div><div id="task6492" class="task_block empty_on_print">
+	<div class="task_id">6492</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит два массива данных одинакового размера. Первый массив содержит символы. Второй - числа. Для каждого элемента первого массива в результате получится отдельный <i>столбец</i>. Количество символов в этом <i>столбце</i> равно значению элемента из второго массива на том же индексе.</div>
+	<table class="check_values">
+		<tr>
+			<th rowspan="2">Номер теста</th>
+			<th colspan="2">Вводимые данные</th>
+			<th rowspan="2">Результат</th>
+		</tr>
+		<tr>
+			<th>Данные сверху(chars)</th>
+			<th>Данные слева(amounts)</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a s d</td>
+			<td>3 2 1</td>
+			<td class="preformatted">asd
+as 
+a  </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>z x c v b</td>
+			<td>1 3 5 0 4</td>
+			<td class="preformatted">zxc b
+ xc b
+ xc b
+  c b
+  c  </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e r t y</td>
+			<td>6 2 8 3 1 5</td>
+			<td class="preformatted">qwerty
+qwer y
+q er y
+q e  y
+q e  y
+q e   
+  e   
+  e   </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>a s d f</td>
+			<td>3 3 3</td>
+			<td>Длины массивов не совпадают</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>z x c</td>
+			<td>1 2 3 4</td>
+			<td>Длины массивов не совпадают</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>1 2 3 4</td>
+			<td>Отсутствуют данные о символах</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>f d s a</td>
+			<td></td>
+			<td>Отсутствуют данные о количествах</td>
+		</tr>
+	</table>
+</div><div id="task5541" class="task_block empty_on_print">
+	<div class="task_id">5541</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - символы, разделенные пробелами. Создать новый массив и записать в него элементы первого массива без дубликатов.</div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q q q q</td>
+			<td>q</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q q w w</td>
+			<td>q w</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q q q w</td>
+			<td>q w</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e r</td>
+			<td>q w e r</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e r q w</td>
+			<td>q w e r</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q q e e w w</td>
+			<td>q e w</td>
+		</tr>
+	</table>
+</div><div id="task9182" class="task_block empty_on_print">
+	<div class="task_id">9182</div>
+	<h3>Задача</h3>
+	<div class="task_desc">Пользователь вводит данные - символы, разделенные пробелами. Посчитать количество различных символов.</div>
+	<table class="check_values">
+		<tr>
+			<th>Номер теста</th>
+			<th>Вводимые данные</th>
+			<th>Результат</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e r t y</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q w e q w y</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>q q q q q q</td>
+			<td>1</td>
+		</tr>
+	</table>
+</div>Версия 1479861. Подборка задач, выбор порядка подачи и подготовка тестовых данных - Крюков Александр, Омск 2013-2022. <a href='https://github.com/AKryukov92/programming-basics'>Основной репозиторий</a></body></html>
