@@ -1,0 +1,6 @@
+C:\Users\pro-14\Desktop\cs22_june_vetrova_as\ZdchLnk\p03_z01\bin\Debug\p03_z01.exe.config
+C:\Users\pro-14\Desktop\cs22_june_vetrova_as\ZdchLnk\p03_z01\bin\Debug\p03_z01.exe
+C:\Users\pro-14\Desktop\cs22_june_vetrova_as\ZdchLnk\p03_z01\bin\Debug\p03_z01.pdb
+C:\Users\pro-14\Desktop\cs22_june_vetrova_as\ZdchLnk\p03_z01\obj\Debug\p03_z01.csprojAssemblyReference.cache
+C:\Users\pro-14\Desktop\cs22_june_vetrova_as\ZdchLnk\p03_z01\obj\Debug\p03_z01.exe
+C:\Users\pro-14\Desktop\cs22_june_vetrova_as\ZdchLnk\p03_z01\obj\Debug\p03_z01.pdb

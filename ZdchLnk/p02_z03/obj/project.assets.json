@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\pro-10\\.nuget\\packages\\": {}
+    "C:\\Users\\pro-14\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p02_z03\\p02_z03.csproj",
+      "projectUniqueName": "C:\\Users\\pro-14\\Desktop\\cs22_june_vetrova_as\\ZdchLnk\\p02_z03\\p02_z03.csproj",
       "projectName": "p02_z03",
-      "projectPath": "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p02_z03\\p02_z03.csproj",
-      "packagesPath": "C:\\Users\\pro-10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pro-10\\Desktop\\удалить\\lnk\\ZdchLnk\\p02_z03\\obj\\",
+      "projectPath": "C:\\Users\\pro-14\\Desktop\\cs22_june_vetrova_as\\ZdchLnk\\p02_z03\\p02_z03.csproj",
+      "packagesPath": "C:\\Users\\pro-14\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pro-14\\Desktop\\cs22_june_vetrova_as\\ZdchLnk\\p02_z03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pro-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pro-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
