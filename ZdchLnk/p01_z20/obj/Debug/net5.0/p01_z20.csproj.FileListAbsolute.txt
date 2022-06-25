@@ -14,3 +14,6 @@ D:\Рабочий стол\lnk\ZdchLnk\p01_z20\obj\Debug\net5.0\ref\p01_z20.dll
 D:\Рабочий стол\lnk\ZdchLnk\p01_z20\obj\Debug\net5.0\p01_z20.pdb
 D:\Рабочий стол\lnk\ZdchLnk\p01_z20\obj\Debug\net5.0\p01_z20.genruntimeconfig.cache
 D:\Рабочий стол\lnk\ZdchLnk\p01_z20\obj\Debug\net5.0\p01_z20.csproj.AssemblyReference.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p01_z20\obj\Debug\net5.0\p01_z20.dll
+D:\Рабочий стол\cs22_june\ZdchLnk\p01_z20\obj\Debug\net5.0\ref\p01_z20.dll
+D:\Рабочий стол\cs22_june\ZdchLnk\p01_z20\obj\Debug\net5.0\p01_z20.pdb

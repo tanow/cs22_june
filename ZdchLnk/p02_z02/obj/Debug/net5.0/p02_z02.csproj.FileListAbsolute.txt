@@ -13,3 +13,6 @@ E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.dll
 E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\ref\p02_z02.dll
 E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.pdb
 E:\C#\удалить\lnk\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.genruntimeconfig.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.dll
+D:\Рабочий стол\cs22_june\ZdchLnk\p02_z02\obj\Debug\net5.0\ref\p02_z02.dll
+D:\Рабочий стол\cs22_june\ZdchLnk\p02_z02\obj\Debug\net5.0\p02_z02.pdb
