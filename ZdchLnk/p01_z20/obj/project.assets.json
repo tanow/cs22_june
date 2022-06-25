@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z20\\p01_z20.csproj",
+      "projectUniqueName": "G:\\cs22_june\\ZdchLnk\\p01_z20\\p01_z20.csproj",
       "projectName": "p01_z20",
-      "projectPath": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z20\\p01_z20.csproj",
+      "projectPath": "G:\\cs22_june\\ZdchLnk\\p01_z20\\p01_z20.csproj",
       "packagesPath": "C:\\Users\\pro-10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z20\\obj\\",
+      "outputPath": "G:\\cs22_june\\ZdchLnk\\p01_z20\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pro-10\\AppData\\Roaming\\NuGet\\NuGet.Config",

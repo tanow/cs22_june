@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj": {}
+    "G:\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj": {
+    "G:\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj",
+        "projectUniqueName": "G:\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj",
         "projectName": "p01_z07",
-        "projectPath": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj",
+        "projectPath": "G:\\cs22_june\\ZdchLnk\\p01_z07\\p01_z07.csproj",
         "packagesPath": "C:\\Users\\pro-10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pro-10\\Desktop\\cs22_june\\ZdchLnk\\p01_z07\\obj\\",
+        "outputPath": "G:\\cs22_june\\ZdchLnk\\p01_z07\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pro-10\\AppData\\Roaming\\NuGet\\NuGet.Config",

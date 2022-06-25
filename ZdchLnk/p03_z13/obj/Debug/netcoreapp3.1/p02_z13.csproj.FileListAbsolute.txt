@@ -1,0 +1,11 @@
+G:\cs22_june\ZdchLnk\p03_z13\bin\Debug\netcoreapp3.1\p02_z13.exe
+G:\cs22_june\ZdchLnk\p03_z13\bin\Debug\netcoreapp3.1\p02_z13.deps.json
+G:\cs22_june\ZdchLnk\p03_z13\bin\Debug\netcoreapp3.1\p02_z13.runtimeconfig.json
+G:\cs22_june\ZdchLnk\p03_z13\bin\Debug\netcoreapp3.1\p02_z13.runtimeconfig.dev.json
+G:\cs22_june\ZdchLnk\p03_z13\bin\Debug\netcoreapp3.1\p02_z13.dll
+G:\cs22_june\ZdchLnk\p03_z13\bin\Debug\netcoreapp3.1\p02_z13.pdb
+G:\cs22_june\ZdchLnk\p03_z13\obj\Debug\netcoreapp3.1\p02_z13.csprojAssemblyReference.cache
+G:\cs22_june\ZdchLnk\p03_z13\obj\Debug\netcoreapp3.1\p02_z13.AssemblyInfoInputs.cache
+G:\cs22_june\ZdchLnk\p03_z13\obj\Debug\netcoreapp3.1\p02_z13.AssemblyInfo.cs
+G:\cs22_june\ZdchLnk\p03_z13\obj\Debug\netcoreapp3.1\p02_z13.dll
+G:\cs22_june\ZdchLnk\p03_z13\obj\Debug\netcoreapp3.1\p02_z13.pdb

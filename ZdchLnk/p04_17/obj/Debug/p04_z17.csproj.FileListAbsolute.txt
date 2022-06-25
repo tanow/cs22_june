@@ -1,0 +1,6 @@
+G:\cs22_june\ZdchLnk\p04_17\bin\Debug\p04_17.exe.config
+G:\cs22_june\ZdchLnk\p04_17\bin\Debug\p04_17.exe
+G:\cs22_june\ZdchLnk\p04_17\bin\Debug\p04_17.pdb
+G:\cs22_june\ZdchLnk\p04_17\obj\Debug\p04_z17.csprojAssemblyReference.cache
+G:\cs22_june\ZdchLnk\p04_17\obj\Debug\p04_17.exe
+G:\cs22_june\ZdchLnk\p04_17\obj\Debug\p04_17.pdb

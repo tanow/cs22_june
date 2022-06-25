@@ -1,0 +1,6 @@
+G:\cs22_june\ZdchLnk\p05_z03\bin\Debug\p05_z03.exe.config
+G:\cs22_june\ZdchLnk\p05_z03\bin\Debug\p05_z03.exe
+G:\cs22_june\ZdchLnk\p05_z03\bin\Debug\p05_z03.pdb
+G:\cs22_june\ZdchLnk\p05_z03\obj\Debug\p05_z03.csprojAssemblyReference.cache
+G:\cs22_june\ZdchLnk\p05_z03\obj\Debug\p05_z03.exe
+G:\cs22_june\ZdchLnk\p05_z03\obj\Debug\p05_z03.pdb

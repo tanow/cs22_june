@@ -1,0 +1,5 @@
+G:\cs22_june\ZdchLnk\p04_z06\bin\Debug\p04_z06.exe.config
+G:\cs22_june\ZdchLnk\p04_z06\bin\Debug\p04_z06.exe
+G:\cs22_june\ZdchLnk\p04_z06\bin\Debug\p04_z06.pdb
+G:\cs22_june\ZdchLnk\p04_z06\obj\Debug\p04_z06.exe
+G:\cs22_june\ZdchLnk\p04_z06\obj\Debug\p04_z06.pdb
