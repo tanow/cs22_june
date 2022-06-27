@@ -1,0 +1,8 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\bin\Debug\p06_z0010.exe.config
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\bin\Debug\p06_z0010.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\bin\Debug\p06_z0010.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.Properties.Resources.resources
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.csproj.GenerateResource.cache
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.pdb

@@ -1,0 +1,3 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z010\obj\Debug\p06_z010.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z010\obj\Debug\p06_z010.Properties.Resources.resources
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z010\obj\Debug\p06_z010.csproj.GenerateResource.cache
