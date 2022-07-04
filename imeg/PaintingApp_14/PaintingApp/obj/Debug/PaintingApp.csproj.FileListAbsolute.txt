@@ -1,0 +1,17 @@
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\bin\Debug\PaintingApp.exe.config
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\bin\Debug\PaintingApp.exe
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\bin\Debug\PaintingApp.pdb
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\obj\Debug\PaintingApp.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\obj\Debug\PaintingApp.Properties.Resources.resources
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\obj\Debug\PaintingApp.csproj.GenerateResource.cache
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\obj\Debug\PaintingApp.exe
+C:\Users\pro-10\Desktop\cs22_june\cs\PaintingApp\PaintingApp\obj\Debug\PaintingApp.pdb
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\bin\Debug\PaintingApp.exe.config
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\bin\Debug\PaintingApp.exe
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\bin\Debug\PaintingApp.pdb
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\obj\Debug\PaintingApp.csproj.AssemblyReference.cache
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\obj\Debug\PaintingApp.Properties.Resources.resources
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\obj\Debug\PaintingApp.csproj.GenerateResource.cache
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\obj\Debug\PaintingApp.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\obj\Debug\PaintingApp.exe
+D:\Рабочий стол\cs22_june\imeg\PaintingApp_14\PaintingApp\obj\Debug\PaintingApp.pdb

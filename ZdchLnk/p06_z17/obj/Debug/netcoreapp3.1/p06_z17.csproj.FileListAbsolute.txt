@@ -1,0 +1,13 @@
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\bin\Debug\netcoreapp3.1\p06_z17.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\bin\Debug\netcoreapp3.1\p06_z17.deps.json
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\bin\Debug\netcoreapp3.1\p06_z17.runtimeconfig.json
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\bin\Debug\netcoreapp3.1\p06_z17.runtimeconfig.dev.json
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\bin\Debug\netcoreapp3.1\p06_z17.dll
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\bin\Debug\netcoreapp3.1\p06_z17.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.AssemblyInfoInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.AssemblyInfo.cs
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.dll
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z17\obj\Debug\netcoreapp3.1\p06_z17.genruntimeconfig.cache

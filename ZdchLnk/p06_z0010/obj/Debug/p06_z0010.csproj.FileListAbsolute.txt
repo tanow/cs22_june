@@ -6,3 +6,12 @@ C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.Properti
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.csproj.GenerateResource.cache
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.exe
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\bin\Debug\p06_z0010.exe.config
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\bin\Debug\p06_z0010.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\bin\Debug\p06_z0010.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.csproj.AssemblyReference.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.Properties.Resources.resources
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.csproj.GenerateResource.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p06_z0010\obj\Debug\p06_z0010.pdb
