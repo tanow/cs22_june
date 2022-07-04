@@ -1,0 +1,6 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z29\bin\Debug\p06_z29.exe.config
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z29\bin\Debug\p06_z29.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z29\bin\Debug\p06_z29.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z29\obj\Debug\p06_z29.csprojAssemblyReference.cache
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z29\obj\Debug\p06_z29.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z29\obj\Debug\p06_z29.pdb

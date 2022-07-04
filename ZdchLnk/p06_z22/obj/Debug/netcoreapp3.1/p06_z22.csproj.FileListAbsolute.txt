@@ -1,0 +1,11 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\bin\Debug\netcoreapp3.1\p06_z22.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\bin\Debug\netcoreapp3.1\p06_z22.deps.json
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\bin\Debug\netcoreapp3.1\p06_z22.runtimeconfig.json
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\bin\Debug\netcoreapp3.1\p06_z22.runtimeconfig.dev.json
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\bin\Debug\netcoreapp3.1\p06_z22.dll
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\bin\Debug\netcoreapp3.1\p06_z22.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\obj\Debug\netcoreapp3.1\p06_z22.AssemblyInfoInputs.cache
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\obj\Debug\netcoreapp3.1\p06_z22.AssemblyInfo.cs
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\obj\Debug\netcoreapp3.1\p06_z22.dll
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\obj\Debug\netcoreapp3.1\p06_z22.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z22\obj\Debug\netcoreapp3.1\p06_z22.csprojAssemblyReference.cache

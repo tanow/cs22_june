@@ -1,0 +1,5 @@
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z01\bin\Debug\p07_z01.exe.config
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z01\bin\Debug\p07_z01.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z01\bin\Debug\p07_z01.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z01\obj\Debug\p07_z01.exe
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z01\obj\Debug\p07_z01.pdb
