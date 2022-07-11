@@ -8,3 +8,4 @@ C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z028\obj\Debug\netcoreapp3.1\p06_z
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z028\obj\Debug\netcoreapp3.1\p06_z028.AssemblyInfo.cs
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z028\obj\Debug\netcoreapp3.1\p06_z028.dll
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z028\obj\Debug\netcoreapp3.1\p06_z028.pdb
+C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p06_z028\obj\Debug\netcoreapp3.1\p06_z028.csprojAssemblyReference.cache
