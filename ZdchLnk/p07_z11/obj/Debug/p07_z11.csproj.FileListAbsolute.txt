@@ -4,3 +4,10 @@ C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z11\bin\Debug\p07_z11.pdb
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.csprojAssemblyReference.cache
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.exe
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\bin\Debug\p07_z11.exe.config
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\bin\Debug\p07_z11.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\bin\Debug\p07_z11.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.csproj.AssemblyReference.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p07_z11\obj\Debug\p07_z11.pdb
