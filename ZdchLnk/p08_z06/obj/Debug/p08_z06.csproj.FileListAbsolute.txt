@@ -4,3 +4,10 @@ C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p08_z06\bin\Debug\p08_z06.pdb
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.exe
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.pdb
 C:\Users\pro-10\Desktop\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.csprojAssemblyReference.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\bin\Debug\p08_z06.exe.config
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\bin\Debug\p08_z06.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\bin\Debug\p08_z06.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.csproj.AssemblyReference.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z06\obj\Debug\p08_z06.pdb

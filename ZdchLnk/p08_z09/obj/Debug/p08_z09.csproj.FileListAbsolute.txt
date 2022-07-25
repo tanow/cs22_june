@@ -1,0 +1,5 @@
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z09\bin\Debug\p08_z09.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z09\bin\Debug\p08_z09.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z09\obj\Debug\p08_z09.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z09\obj\Debug\p08_z09.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z09\obj\Debug\p08_z09.pdb
