@@ -1,0 +1,6 @@
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z16\bin\Debug\p08_z16.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z16\bin\Debug\p08_z16.pdb
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z16\obj\Debug\p08_z16.csproj.AssemblyReference.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z16\obj\Debug\p08_z16.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z16\obj\Debug\p08_z16.exe
+D:\Рабочий стол\cs22_june\ZdchLnk\p08_z16\obj\Debug\p08_z16.pdb
